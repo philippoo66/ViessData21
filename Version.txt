@@ -1,0 +1,50 @@
+zip006 --------------------------------
+V2.2.0.0
+ACHTUNG vito_DP.xml nur noch bedingt kompatibel zu V2.06
+- Sonderbehandlung Wertekonvertierung nur noch für Datum (und Heiz/etc/zeiten)
+- signed Werte jetzt per negativer Angabe <precision> in vito_DP.xml
+- Brennerstunden precision 2.777778e-4 statt 3600
+- kein NotifyIcon mehr
+- vito_DP.xml einige DPs hinzugefügt
+
+
+zip005 --------------------------------
+V2.1.0.7
+- Copyright Chris included in Assembly Info
+- umgestellt auf OLCA.dll (Class removed)
+- 
+
+zip004 --------------------------------
+V2.1.0.6
+- einstellbare Grenzen für RaumTemp Sollwerte geändert zu 3..37 [°C]
+- in den tb_leave/_KeyUp procs .Parse durch if(!.TryParse ...) return; ersetzt
+- PollInterval (eigentlich Delay) auch manuell eingebbar per Enter
+- sysIdent lesen und Geräte-Info in Titelleiste, Btn Info added; erfordert Devices.csv
+- COptoLinkCommAsync zu IDisposable gemacht
+- ein wenig weiter aufgeräumt 
+
+zip003 --------------------------------
+V2.1.0.5
+- Verriegelung gegen single read bei Bulk beseitigt
+
+zip002 --------------------------------
+V2.1.0.4
+- Anchor von lblHint fixed
+
+zip001 --------------------------------
+V2.1.0.3  09.01.2023
+Version hochgeladen
+- Schreiben jetzt auch mit neuer Lib
+- ...
+
+V2.1.0.2
+- COptoLinkComm geschaffen
+- asynchrones Lesen in App eingebaut etc
+
+V2.1.0.1
+- portiert auf .NET Framework 4.5 (vorher 3.5) wegen async Task 
+
+V2.1.0.0   21.10.2022
+- erstmal nur Kosmetisches
+- Pfade etc. betriebssystemunabhängig
+- DecimalSeparator Bug bei ZZahl und Brennwert beseitigt
