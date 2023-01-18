@@ -18,4 +18,4 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen.
 
 Update: bei der 2.1.0.7 ist jetzt auch das fehlende Icon File mit drin - sie läuft jetzt auch ;-)
 
-- Viessdata 2.2: die hat-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren.
+- Viessdata 2.2: die hart-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren.
