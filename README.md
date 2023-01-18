@@ -18,6 +18,6 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 
   Update: bei der 2.1.0.7 AppOnly ist jetzt auch das fehlende Icon File mit drin - sie läuft jetzt auch ;-)
 
-- Viessdata 2.2: die hart-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren.
+- Viessdata 2.2: die hart-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren, die alte ist aber diesbezüglich bei einigen wenigen DPs nicht mehr kompatibel. 
 
   Der Umrechnungsfaktor wird jetzt durchgehend als Multiplikator angewandt, ist dieser negativ, werden die hex Werte signed interpretiert.
