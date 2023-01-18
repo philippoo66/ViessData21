@@ -8,8 +8,8 @@ Die [Issues](https://github.com/openv/openv/issues?q=is%3Aissue+is%3Aopen+sort%3
 The [OpenV Wiki](https://github.com/openv/openv/wiki) is about DIY projects, software, and information concerning Viessmann® heating controllers.
 
 The [Issues](https://github.com/openv/openv/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) are to be used like a [bulletin board / forum](https://github.com/openv/openv/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) in this Github repo.
- 
-  
+
+
 # :fire: Viessdata 2.1 und 2.2
 
 Die neuen Versionen des schon älteren Tools für Viessmann Heizungen.
