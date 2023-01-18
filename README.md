@@ -20,4 +20,4 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 
 - Viessdata 2.2: die hart-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren, die alte ist aber diesbezüglich bei einigen wenigen DPs nicht mehr kompatibel. 
 
-  Der Umrechnungsfaktor wird jetzt durchgehend als Multiplikator angewandt, ist dieser negativ, werden die hex Werte signed interpretiert.
+  Der Umrechnungsfaktor wird jetzt durchgehend als Multiplikator angewandt, hat dieser ein vorangestelltes Minus-Zeichen, so werden die hex Werte signed interpretiert.
