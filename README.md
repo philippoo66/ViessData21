@@ -21,3 +21,9 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 - Viessdata 2.2: die hart-programmierten Werte-Konvertierungen sind (abgesehen von Zeit/Datum und Heiz/etc/zeiten) raus => die vito_DP.xml ist jetzt besser zu utilisieren, die alte ist aber diesbezüglich bei einigen wenigen DPs nicht mehr kompatibel. 
 
   Der Umrechnungsfaktor wird jetzt durchgehend als Multiplikator angewandt, hat dieser ein vorangestelltes Minus-Zeichen, so werden die hex Werte signed interpretiert.
+  
+## DP_Listen_2.zip
+weiter DP Listen ergänzt. Die, bei denen das Python Skript offensichtlich nicht richtig funktioniert hat, habe ich als csv Kopie der SQL Abfrage beigefügt. Nicht ganz so schön wie die txt Files, aber zumindest sind die Address-Infos drin. 
+
+Wer zusätzliche Infos braucht (z.B. Enums der Enum-Typ Parameter), und nicht das Vitosoft Monster installieren will, kann sich gerne melden.
+  
