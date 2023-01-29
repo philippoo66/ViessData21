@@ -27,7 +27,7 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 ## DP_Listen_2.zip
 weiter DP Listen ergänzt. Die, bei denen das Python Skript offensichtlich nicht richtig funktioniert hat, habe ich als csv Kopie der SQL Abfrage beigefügt. Nicht ganz so schön wie die txt Files, aber zumindest sind die Address-Infos drin. 
 
-Die Listen, die aus der Vitosoft SQL DB / xml stammen, sind übrigens nicht unbedingt vollständig. Bei meiner 'VScotHO1_200_10' tauchen die Wandlerwerte an 0800h ff nicht auf, aber sie existieren. Wenn ich die DPs mit denen aus einer KW3 kombiniere, sind die ADC DPs dabei...
+Die Listen, die aus der Vitosoft SQL DB / xml stammen, sind übrigens nicht unbedingt vollständig. Bei meiner 'VScotHO1_200_01' tauchen die Wandlerwerte an 0800h ff nicht auf, aber sie existieren. Wenn ich die DPs mit denen aus einer KW3 kombiniere, sind die ADC DPs dabei. Und es fehlen bsw. eine Menge Einstellungen an 0x77yz (Betriebsweise/Regelung der internen Umwälzpumpe, LON Parameter, Anlagentyp, Haustyp, allgem. Einstellungen, ...), wobei yz die Parameternummer aus der Serviceanleitung sind. 
 
 Wer zusätzliche Infos braucht (z.B. Enums der Enum-Typ Parameter), und nicht das Vitosoft Monster installieren will, kann sich gerne melden.
   
