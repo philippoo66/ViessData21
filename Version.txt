@@ -1,3 +1,40 @@
+zip008 --------------------------------
+V2.3.0.0
+ACHTUNG ggf. angepasste vito_DP.xml notwendig
+(siehe Heiz/etc/zeiten)
+
+- bei Problemen mit xmls Error handling mit aussagefähiger Fehlermeldung 
+- COptoLinkCommAsync.fKwBulk gehandled in ReadListDPs
+- Knopf für WW Einmalladung
+- Liste full width, COM Port Selektion auf letzten Tab
+- beim DP Schreiben jetzt auch grün..rot 
+- Meldungen jetzt als Liste
+- bei Erstellung neues csv FileMode.Create und FileShare.None 
+- jede Menge Kleinkram im Sinne 'soliderer' Programmierung
+
+- DP Liste:
+  - nicht mehr sortierbar, weil Zusammenhang mit nachträglich zugef. Spalten fehlt
+  - DP Liste ein wenig aufgeräumt
+  - Wert_String hinten dran für Unicode String DPs...
+    (utf-16, 2 Bytes lsb-msb, erstes Dupel msb-lsb enthält Lese-Länge Dupels (inkl. Anz.))
+
+- Read/Write List DP:
+  - Schreiben bis zu 8 Bytes, auch unsigned
+  - Block-segmented Lesen bei ReadListDp eingebaut (wg. max 55 Bytes auf einmal...)
+  - Offset eingebaut (wir auf Addr aufaddiert)
+  - PollTimer gestoppt bei Stopknopf (kein Piep mehr ;-)
+
+- Heiz/etc/zeiten überarbeitet:
+  ACHTUNG: ein 56 Bytes Wert ODER 7 sub-sequent Tage je 8 Bytes in der Liste erwartet. 
+  - werden jetzt aus einem ByteArray (56 Bytes) an der Adresse 0x02y00 (wenn länger 8 Bytes, y € 0,1,2)
+    oder aus 7 Wochentags-ByteArrays je 8 Byte gebildet (je nachdem wie in Liste vorgefunden) 
+  - Schreiben jetzt in 8 Byte Tages-Blöcken
+- Tab Heiz/etc/Zeiten:
+  - Tag Einstellungen kopieren/übertragen eingebaut
+  - alle Einträge löschen eingebaut
+  - die ganze Geschichte jetzt mit Control Arrays und nicht mehr FindControl(Name) -> viel schneller
+
+
 zip007 --------------------------------
 V2.2.0.1
 - letzte NotifyIcon Issues raus - beendet jetzt wieder
@@ -5,11 +42,11 @@ V2.2.0.1
 zip006 --------------------------------
 V2.2.0.0
 ACHTUNG vito_DP.xml nur noch bedingt kompatibel zu V2.06
-- Sonderbehandlung Wertekonvertierung nur noch f�r Datum (und Heiz/etc/zeiten)
+- Sonderbehandlung Wertekonvertierung nur noch für Datum (und Heiz/etc/zeiten)
 - signed Werte jetzt per negativer Angabe <precision> in vito_DP.xml
 - Brennerstunden precision 2.777778e-4 statt 3600
 - kein NotifyIcon mehr
-- vito_DP.xml einige DPs hinzugef�gt
+- vito_DP.xml einige DPs hinzugefügt
 
 
 zip005 --------------------------------
@@ -20,12 +57,12 @@ V2.1.0.7
 
 zip004 --------------------------------
 V2.1.0.6
-- einstellbare Grenzen f�r RaumTemp Sollwerte ge�ndert zu 3..37 [�C]
+- einstellbare Grenzen für RaumTemp Sollwerte geändert zu 3..37 [°C]
 - in den tb_leave/_KeyUp procs .Parse durch if(!.TryParse ...) return; ersetzt
 - PollInterval (eigentlich Delay) auch manuell eingebbar per Enter
-- sysIdent lesen und Ger�te-Info in Titelleiste, Btn Info added; erfordert Devices.csv
+- sysIdent lesen und Geräte-Info in Titelleiste, Btn Info added; erfordert Devices.csv
 - COptoLinkCommAsync zu IDisposable gemacht
-- ein wenig weiter aufger�umt 
+- ein wenig weiter aufgeräumt 
 
 zip003 --------------------------------
 V2.1.0.5
@@ -50,5 +87,5 @@ V2.1.0.1
 
 V2.1.0.0   21.10.2022
 - erstmal nur Kosmetisches
-- Pfade etc. betriebssystemunabh�ngig
+- Pfade etc. betriebssystemunabhängig
 - DecimalSeparator Bug bei ZZahl und Brennwert beseitigt
