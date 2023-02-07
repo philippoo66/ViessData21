@@ -24,7 +24,7 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 
   Der Umrechnungsfaktor wird jetzt durchgehend als Multiplikator angewandt, hat dieser ein vorangestelltes Minus-Zeichen, so werden die hex Werte signed interpretiert.
 
-- Viessdata 2.3: Zeiten-Geschichte überarbeitet. Einzelne Tage schreiben und Werte auf andere Tage übertragen eingebaut. Knopf zur WW Einmalladung eingebaut. Schreiben großer Werte (bis zu 8 Bytes, auch unsigned), Block-segmented Lesen auch mit Offset. Anzeige Strings in Liste. Fehler in xml gehandled. Mehr siehe Verstion.txt. 
+- Viessdata 2.3: Zeiten-Geschichte überarbeitet. Einzelne Tage schreiben und Werte auf andere Tage übertragen eingebaut. Knopf zur WW Einmalladung eingebaut. Schreiben großer Werte (bis zu 8 Bytes, auch unsigned), Block-segmented Lesen auch mit Offset. Anzeige Strings in Liste. Fehler in xml gehandled. Mehr siehe Version.txt. 
 
   Einige DPs in vito_DP.xml ergänzt (auch welche, die nicht in der Vitosoft DB stehen). DPs ein wenig in Gruppen angeordnet. 
 
