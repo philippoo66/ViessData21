@@ -21,7 +21,7 @@ ACHTUNG ggf. angepasste vito_DP.xml notwendig
 - Read/Write List DP:
   - Schreiben bis zu 8 Bytes, auch unsigned
   - Block-segmented Lesen bei ReadListDp eingebaut (wg. max 55 Bytes auf einmal...)
-  - Offset eingebaut (wir auf Addr aufaddiert)
+  - Offset eingebaut (wird auf Addr aufaddiert)
   - PollTimer gestoppt bei Stopknopf (kein Piep mehr ;-)
 
 - Heiz/etc/zeiten überarbeitet:
