@@ -51,7 +51,7 @@ Zuerst wird die Gerätekennung an der Adresse 0xF8 / 0x00F8 ausgelesen. Die 8 By
 
 Gegebenefalls wird noch das ecnsysDeviceIdentF0, 1 Byte an Adresse 0xF0 / 0x00F0 benötigt.
 
-Damit schaut man dann in die Datapoints Liste. Bei einigen Geräten reichen die ersten beiden Bytes an F8, beispielsweise 
+Damit schaut man dann in die [DataPoints Liste](https://github.com/philippoo66/ViessData21/blob/master/DataPoints.txt). Bei einigen Geräten reichen die ersten beiden Bytes an F8, beispielsweise 
 
 ![grafik](https://user-images.githubusercontent.com/122479122/235326869-1710f9ce-dddb-42ec-ad36-c7da25bc8152.png)
 
@@ -69,5 +69,5 @@ Beispiel: Bei meiner Vitodens B3HB steht an F8: 20 CB 1F C9 00 00 01 14, an F0: 
 
 sysHardware/SoftwareIndexIdent 1F C9 ist aber nirgends zu finden. Tatsächlich ist der HardwareIndex hier irrelevant. Es handelt sich um eine VScotHO1_200_01, Klartext "ab Softwareindex 200, Projekt Vitodens 300 mit HO2B, ab 08/2016 mit Lüftungsbedienung". Das 'ab Softwareindex 200' findet sich mutmasslich im DeveloperVersionIdent: 0x0114 = 276.
 
-Relevant für die Identifikation der zugehörigen Datenpunktliste im DP_Listen.zip ist die Kennung hinter dem rechten Doppelpunkt, im Beispiel also das 'VScotHO1_200_01'. Die zugehörige Datenpunktliste ist DP_VScotHO1_200_01.txt
+Relevant für die Identifikation der zugehörigen Datenpunktliste im [DP_Listen_2.zip](https://github.com/philippoo66/ViessData21/blob/master/DP_Listen_2.zip) ist die Kennung hinter dem rechten Doppelpunkt, im Beispiel also das 'VScotHO1_200_01'. Die zugehörige Datenpunktliste ist DP_VScotHO1_200_01.txt
 
