@@ -41,3 +41,33 @@ Die Listen, die aus der Vitosoft SQL DB / xml stammen, sind übrigens nicht unbe
 
 Wer zusätzliche Infos braucht (z.B. Enums der Enum-Typ Parameter), und nicht das Vitosoft Monster installieren will, kann sich gerne melden.
   
+## DataPoints_ReadMe
+
+<b>Identifikation der zum Gerät gehörenden Datenpunktliste</b>
+
+Zuerst wird die Gerätekennung an der Adresse 0xF8 / 0x00F8 ausgelesen. Die 8 Bytes haben die folgende Struktur:
+
+![grafik](https://user-images.githubusercontent.com/122479122/235326784-79c9e46b-fda9-4a53-b95e-04c68af3c47e.png)
+
+Gegebenefalls wird noch das ecnsysDeviceIdentF0, 1 Byte an Adresse 0xF0 / 0x00F0 benötigt.
+
+Damit schaut man dann in die Datapoints Liste. Bei einigen Geräten reichen die ersten beiden Bytes an F8, beispielsweise 
+
+![grafik](https://user-images.githubusercontent.com/122479122/235326869-1710f9ce-dddb-42ec-ad36-c7da25bc8152.png)
+
+Bei anderen Geräten werden noch zwei weitere Bytes benötigt:
+
+![grafik](https://user-images.githubusercontent.com/122479122/235326887-1ef0d12a-aeca-4fea-9ba3-07a54d06d455.png)
+
+Bei einer dritten Gruppe wird auch noch das Byte an F0 benötigt:
+
+![grafik](https://user-images.githubusercontent.com/122479122/235326911-a20628f6-0313-4b93-80f5-0d81aca00369.png)
+
+Aber ACHTUNG! Manchmal ist der sysHardwareIndexIdent '01' nur ein "Platzhalter" und kann als "einer für alle" aufgefasst werden. 
+
+Beispiel: Bei meiner Vitodens B3HB steht an F8: 20 CB 1F C9 00 00 01 14, an F0: 01
+
+sysHardware/SoftwareIndexIdent 1F C9 ist aber nirgends zu finden. Tatsächlich ist der HardwareIndex hier irrelevant. Es handelt sich um eine VScotHO1_200_01, Klartext "ab Softwareindex 200, Projekt Vitodens 300 mit HO2B, ab 08/2016 mit Lüftungsbedienung". Das 'ab Softwareindex 200' findet sich mutmasslich im DeveloperVersionIdent: 0x0114 = 276.
+
+Relevant für die Identifikation der zugehörigen Datenpunktliste im DP_Listen.zip ist die Kennung hinter dem rechten Doppelpunkt, im Beispiel also das 'VScotHO1_200_01'. Die zugehörige Datenpunktliste ist DP_VScotHO1_200_01.txt
+
