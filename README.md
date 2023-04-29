@@ -30,7 +30,7 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
 
   Achtung: Heiz/etc/zeiten jetzt als ein 56-Byte Wert ODER 7 sub-sequent Tage je 8 Bytes in der Liste erwartet. Am besten die vito_DP.xml übernehmen. Aber vor Starten des neuen Programms die bestehende aktuelle Wochen-csv umbenennen, damit eine neue erstellt wird! Sonst gibt es Chaos wegen der tw. umgeordneten Reihenfolge der gespeicherten DPs.
   
-  Seit Version 2.3.2.0 sollte auch das KW 'arbeiten' (danke @traori für sein Mitwirken!).
+  Seit Version 2.3.2.0 sollte auch das KW Protokoll 'arbeiten' (danke @traori für sein Mitwirken!).
   
 ## DP_Listen_2.zip
 weiter DP Listen ergänzt. Die, bei denen das Python Skript offensichtlich nicht richtig funktioniert hat, habe ich als csv Kopie der SQL Abfrage beigefügt. Nicht ganz so schön wie die txt Files, aber zumindest sind die Address-Infos drin. 
