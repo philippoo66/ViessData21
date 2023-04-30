@@ -67,7 +67,7 @@ Aber ACHTUNG! Manchmal ist der sysHardwareIndexIdent '01' nur ein "Platzhalter" 
 
 Beispiel: Bei meiner Vitodens B3HB steht an F8: 20 CB 1F C9 00 00 01 14, an F0: 01
 
-sysHardware/SoftwareIndexIdent 1F C9 ist aber nirgends zu finden. Tatsächlich ist der HardwareIndex hier irrelevant. Es handelt sich um eine VScotHO1_200_01, Klartext "ab Softwareindex 200, Projekt Vitodens 300 mit HO2B, ab 08/2016 mit Lüftungsbedienung". Das 'ab Softwareindex 200' findet sich mutmasslich im DeveloperVersionIdent: 0x0114 = 276.
+sysHardware/SoftwareIndexIdent 1F C9 ist aber nirgends zu finden. Tatsächlich ist der HardwareIndex hier irrelevant. Es handelt sich um eine VScotHO1_200_01, Klartext "ab Softwareindex 200, Projekt Vitodens 300 mit HO2B, ab 08/2016 mit Lüftungsbedienung". Das 'ab Softwareindex 200' findet sich mutmasslich im SoftwareIndexIdent 0xC9 = 201.
 
 Relevant für die Identifikation der zugehörigen Datenpunktliste im [DP_Listen_2.zip](https://github.com/philippoo66/ViessData21/blob/master/DP_Listen_2.zip) ist die Kennung hinter dem rechten Doppelpunkt, im Beispiel also das 'VScotHO1_200_01'. Die zugehörige Datenpunktliste ist DP_VScotHO1_200_01.txt
 
