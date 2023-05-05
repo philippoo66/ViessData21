@@ -1,0 +1,171 @@
+0x2032;;;;;Vitolig Scheitholzkessel ; VBC550S
+0x2033;;;;;Vitolig Pelletkessel ; VBC550P
+0x2034;;;;;Ecotronic K÷b ; Ecotronic
+0x2035;;;;;Ecotronic 100 K÷b ; Ecotronic_100
+0x2043;;;;;Regler Wärmepumpen CU700 ; VBC701
+0x2046;;;;;Vitocal-G Vitocal-G ; VBC700_BW_WW
+0x2047;;;;;Vitocal-A Vitocal-A ; VBC700_AW
+0x2048;;;;;Vitocal-G mit Vitotronic 200 (Typ WO1A) (ab 08/2010) ; V200WO1A
+0x2049;;;;;Vitocal 3xx mit Vitotronic 200 (Typ WO1A) (ab 08/2010) ; VBC702_AW
+0x204A;;;;;Vitocal 200-S mit Vitotronic 200 (Typ WO1A) (ab 08/2010) ; VBC702_S
+0x204B;;;;;Vitocalxxx-G mit Vitotronic 200 (Typ WO1C) (ab 04/2012) ; CU401B_G
+0x204C;;;;;Vitocalxxx-A mit Vitotronic 200 (Typ WO1C) (ab 04/2012) ; CU401B_A
+0x204D;;;;;Vitocalxxx-S mit Vitotronic 200 (Typ WO1C) (ab 04/2012) ; CU401B_S
+0x2053;0x0100;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BEM und Feuerungsautomat LGM29, ab Softwareindex 0 ; GWG_VBEM_00
+0x2053;0x0103;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BEM und Feuerungsautomat LGM29, ab Softwareindex 03 ; GWG_VBEM_03
+0x2053;0x0121;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BEM und Feuerungsautomat LGM29, ab Softwareindex 21 ; GWG_VBEM_21
+0x2053;0x0135;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BEM und Feuerungsautomat LGM29, ab Softwareindex 35 ; GWG_VBEM_35
+0x2053;0x0136;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BEM und Feuerungsautomat LGM29, ab Softwareindex 36 ; GWG_VBEM_36
+0x2053;0x0200;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES und Feuerungsautomat LGM29, ab Softwareindex 0 ; GWG_VBES_00
+0x2053;0x0203;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES und Feuerungsautomat LGM29, ab Softwareindex 03 ; GWG_VBES_03
+0x2053;0x0221;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES und Feuerungsautomat LGM29, ab Softwareindex 21 ; GWG_VBES_21
+0x2053;0x0235;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES und Feuerungsautomat LGM29, ab Softwareindex 35 ; GWG_VBES_35
+0x2053;0x0236;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES und Feuerungsautomat LGM29, ab Softwareindex 36 ; GWG_VBES_36
+0x2053;0x0800;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES im Wandmontagesockel WMS und Feuerungsautomat LGM29, ab Softwareindex 0 ; GWG_VWMS_00
+0x2053;0x0803;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES im Wandmontagesockel WMS und Feuerungsautomat LGM29,ab Softwareindex 03 ; GWG_VWMS_03
+0x2053;0x0821;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES im Wandmontagesockel WMS und Feuerungsautomat LGM29, ab Softwareindex 21 ; GWG_VWMS_21
+0x2053;0x0835;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES im Wandmontagesockel WMS und Feuerungsautomat LGM29, ab Softwareindex 35 ; GWG_VWMS_35
+0x2053;0x0836;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BES im Wandmontagesockel WMS und Feuerungsautomat LGM29, ab Softwareindex 36 ; GWG_VWMS_36
+0x2053;0x1000;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BT2 und Feuerungsautomat LGM29, ab Softwareindex 0 Konstantregelung ; GWG_VBT2_00
+0x2053;0x1003;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BT2 und Feuerungsautomat LGM29, ab Softwareindex 03 Konstantregelung ; GWG_VBT2_03
+0x2053;0x1021;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BT2 und Feuerungsautomat LGM29, ab Softwareindex 21 Konstantregelung ; GWG_VBT2_21
+0x2053;0x1035;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BT2 und Feuerungsautomat LGM29, ab Softwareindex 35 Konstantregelung ; GWG_VBT2_35
+0x2053;0x1036;;;;Gaswandgerät mit VR20 Regelung, Bedienteil BT2 und Feuerungsautomat LGM29, ab Softwareindex 36 Konstantregelung ; GWG_VBT2_36
+0x2054;0x00FF;;;;Gaswandgeraet mit Bedienteil BT2 und Feuerungsautomat LGM29, alle Software-Indizes ; GWG_BT2
+0x208A;;;;; ; Vitocom300
+0x208A;0x010A;0x010F;;;Vitocom 300 FA3, FI1, FE1 mit einem 3er Betriebssystem und mit einer Anwendung ab Version 3.00 ; Vitocom300_10
+0x208A;0x0110;0x012F;;;Vitocom 300 FA5, FI2, GP2 und LAN2 mit Ethernet-Anschluss ; Vitocom300_LAN
+0x208C;;;;;Vitocom 200 FA4, GP1 und LAN1 mit Ethernet-Anschluss ; Vitocom200_LAN
+0x208D;;;;;Vitocom 100 LAN1 (Heizungsrouter) ; Vitocom100_LAN
+0x208E;;;;;Vitocom 200 LAN / GPRS ; Vitocom200_LAN_GP
+0x208F;;;;;Vitocom 300 LAN / GPRS / Analog ; Vitocom300_LAN_GP_Analog
+0x208X;;;;;LON-EIB-Gateway ZE-Id 208B ; Vitogate200EIB
+0x2091;0x0100;0x0105;;;Vitotronic 100 KC2 Digitale Kesselregelung ; V100KC2
+0x2091;0x0106;0x010F;;;Vitotronic 100 KC2 Digitale Kesselregelung ; V100KC2_6
+0x2092;0x0100;0x0103;;;Vitotronic 150 KB1 Waermebedarfsgefuehrte, digitale Kesselkreisregelung, für 1 Heizkreis ohne Mischer ; V150KB1
+0x2092;0x0104;0x0104;;;Vitotronic 150 KB1 Waermebedarfsgefuehrte, digitale Kesselkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 150 KB1 Softwarestand 4 (mit Anbindung Vitosolic 100/200 über KM-Bus) ; V150KB1_4
+0x2092;0x0105;0x0105;;;Vitotronic 150 KB1 Waermebedarfsgefuehrte, digitale Kesselkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 150 KB1 Softwarestand 5 (mit Anbindung Vitosolic 100/200 über KM-Bus), kein Unterschied der Daten zu Softwarestand 4 ; V150KB1_5
+0x2092;0x0106;0x010F;;;Vitotronic 150 KB1 oder KB2 Waermebedarfsgefuehrte, digitale Kesselkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 150 KB1 oder KB2 Softwarestand 6 (mit Anbindung Anschlußerweiterung 0-10V über KM-Bus) ; V150KB1_6
+0x2094;0x0100;0x0103;;;Vitotronic 200 KW1 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer ; V200KW1
+0x2094;0x0104;0x0104;;;Vitotronic 200 KW1 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 200 KW1 Softwarestand 4 (mit Anbindung Vitosolic 100/200 über KM-Bus) ; V200KW1_4
+0x2094;0x0105;0x0105;;;Vitotronic 200 KW1 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 200 KW1 Softwarestand 5 (mit Anbindung Vitosolic 100/200 über KM-Bus), kein Unterschied der Daten zu Softwarestand 4 ; V200KW1_5
+0x2094;0x0106;0x010F;;;Vitotronic 200 KW1  oder KW4 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer Vitotronic 200 KW1 oder KW5 Softwarestand 6 (mit Anbindung Anschlußerweiterung 0-10V über KM-Bus) ; V200KW1_6
+0x2098;0x0100;0x0103;;;Vitotronic 200 KW2 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 1 Heizkreis mit Mischer ; V200KW2
+0x2098;0x0104;0x0104;;;Vitotronic 200 KW2 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 1 Heizkreis mit Mischer Vitotronic 200 KW2 Softwarestand 4 (mit Anbindung Vitosolic 100/200 über KM-Bus) ; V200KW2_4
+0x2098;0x0105;0x0105;;;Vitotronic 200 KW2 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 1 Heizkreis mit Mischer Vitotronic 200 KW2 Softwarestand 5 (mit Anbindung Vitosolic 100/200 über KM-Bus), kein Unterschied der Daten zu Softwarestand 4 ; V200KW2_5
+0x2098;0x0106;0x010F;;;Vitotronic 200 KW2 oder KW5 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 1 Heizkreis mit Mischer Vitotronic 200 KW2 oder KW5 Softwarestand 6 (mit Anbindung Anschlußerweiterung 0-10V über KM-Bus) ; V200KW2_6
+0x209C;0x0100;0x0103;;;Vitotronic 300 KW3 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 2 Heizkreisen mit Mischer ; V300KW3
+0x209C;0x0104;0x0104;;;Vitotronic 300 KW3 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 2 Heizkreisen mit Mischer Vitotronic 300 KW3 Softwarestand 4 (mit Anbindung Vitosolic 100/200 über KM-Bus) ; V300KW3_4
+0x209C;0x0105;0x0105;;;Vitotronic 300 KW3 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 2 Heizkreisen mit Mischer Vitotronic 300 KW3 Softwarestand 5 (mit Anbindung Vitosolic 100/200 über KM-Bus), kein Unterschied der Daten zu Softwarestand 4 ; V300KW3_5
+0x209C;0x0106;0x010F;;;Vitotronic 300 KW3 Witterungsgeführte, digitale Kessel- und Heizkreisregelung, für 1 Heizkreis ohne Mischer und 2 Heizkreisen mit Mischer Vitotronic 300 KW3 Softwarestand 6 (mit Anbindung Anschlußerweiterung 0-10V über KM-Bus) ; V300KW3_6
+0x209D;;;;;NR1 2011 ; V100KC4B
+0x209F;;;;;NR1 2011 ; V200KO2B
+0x20A0;0x0100;0x0106;;;Vitotronic 100 GC1 ; V100GC1
+0x20A0;0x0107;0x0107;;;Vitotronic 100 GC1 Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V100GC1_7
+0x20A0;0x0108;0x010F;;;Vitotronic 100 GC1 Softwarestand 8 und 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V100GC1_8
+0x20A1;;;;;Vitotronic 100 GC1 Softwarestand 8 und 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V100GC1A
+0x20A2;;;;;Vitotronic 100 GC1C für Systemregler 2013 ; V100GC1C
+0x20A3;;;;;Anschlusserweiterung EA2 für Systemregler 2013 ; EA2
+0x20A4;0x0100;0x0106;;;Vitotronic 200 GW1 ; V200GW1
+0x20A4;0x0107;0x0107;;;Vitotronic 300 GW2 Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V200GW1_7
+0x20A4;0x0108;0x0108;;;Vitotronic 300 GW2 Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V200GW1_8
+0x20A4;0x0109;0x010F;;;Vitotronic 300 GW2 Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional, neue Codierungen F8 bis FB) ; V200GW1_9
+0x20A5;0x0100;0x0106;;;Vitotronic 300 GW2 ; V300GW2
+0x20A5;0x0107;0x0107;;;Vitotronic 300 GW2 Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V300GW2_7
+0x20A5;0x0108;0x0108;;;Vitotronic 300 GW2 Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V300GW2_8
+0x20A5;0x0109;0x010F;;;Vitotronic 300 GW2 Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional, neue Codierungen F8 bis FB) ; V300GW2_9
+0x20A6;;;;;NR2 2011, GW5B für Systemregler 2013 ; V300GW2A
+0x20A7;;;;;Vitotronic 100 CC1E und Vitotronic CC1I (NRP1.0)Konstant-Kesselregelung für Ein-und Mehrkesselanwendungen ; V100CC1x
+0x20A9;;;;;Vitotronic 200 CO1E / CO1I ; V200CO1x
+0x20AA;0x0100;0x0106;;;Vitotronic 050 HK1W - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. ; V050HK1W
+0x20AA;0x0107;0x0107;;;Vitotronic 050 HK1W - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V050HK1W_7
+0x20AA;0x0108;0x0108;;;Vitotronic 050 HK1W - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 1 ; V050HK1W_8
+0x20AA;0x0109;0x010F;;;Vitotronic 050 HK1W - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 1 ; V050HK1W_9
+0x20AB;0x0100;0x0106;;;Vitotronic 050 HK3W - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. ; V050HK3W
+0x20AB;0x0107;0x0107;;;Vitotronic 050 HK3W - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 7 (0-10V Anschlußerweiterung optiona ; V050HK3W_7
+0x20AB;0x0108;0x0108;;;Vitotronic 050 HK3W - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 8 (0-10V Anschlußerweiterung und Vit ; V050HK3W_8
+0x20AB;0x0109;0x010F;;;Vitotronic 050 HK3W - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 9 (0-10V Anschlußerweiterung und Vit ; V050HK3W_9
+0x20AC;0x0100;0x0106;;;Vitotronic 050 HK1S - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Als Kopie von V050HK1W eingefügt ; V050HK1S
+0x20AC;0x0107;0x0107;;;Vitotronic 050 HK1S - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V050HK1S_7
+0x20AC;0x0108;0x0108;;;Vitotronic 050 HK1S - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 1 ; V050HK1S_8
+0x20AC;0x0109;0x010F;;;Vitotronic 050 HK1S - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer und Speichertemperaturregelung. Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 1 ; V050HK1S_9
+0x20AD;0x0100;0x0106;;;Vitotronic 050 HK3WS - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. - Als Kopie von V050HK3S ; V050HK3S
+0x20AD;0x0107;0x0107;;;Vitotronic 050 HK3S - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 7 (0-10V Anschlußerweiterung optiona ; V050HK3S_7
+0x20AD;0x0108;0x0108;;;Vitotronic 050 HK3S - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 8 (0-10V Anschlußerweiterung und Vit ; V050HK3S_8
+0x20AD;0x0109;0x010F;;;Vitotronic 050 HK3S - Witterungsgeführte, digitale Heizkreisregelung für maximal drei Heizkreise mit Mischer und Speichertemperaturregelung. Softwarestand 9 (0-10V Anschlußerweiterung und Vit ; V050HK3S_9
+0x20AE;;;;;NR2 2011 ; V200HK3A
+0x20B4;0x0100;0x0106;;;Vitotronic 050 HK1M - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer für die Montage an Viessmann Mischern. ; V050HK1M
+0x20B4;0x0107;0x0107;;;Vitotronic 050 HK1M - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer für die Montage an Viessmann Mischern. Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V050HK1M_7
+0x20B4;0x0108;0x0108;;;Vitotronic 050 HK1M - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer für die Montage an Viessmann Mischern. Softwarestand 8 (0-10V Anschlußerweiterung optional) ; V050HK1M_8
+0x20B4;0x0109;0x010F;;;Vitotronic 050 HK1M - Witterungsgeführte, digitale Heizkreisregelung für einen Heizkreis mit Mischer für die Montage an Viessmann Mischern. Softwarestand 9 (0-10V Anschlußerweiterung optional, neue Codierungen F8 bis FB) ; V050HK1M_9
+0x20B8;0x0100;0x0106;;;Vitotronic 333 MW1 ; V333MW1
+0x20B8;0x0107;0x0107;;;Vitotronic 333 MW1 Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V333MW1_7
+0x20B8;0x0108;0x0108;;;Vitotronic 333 MW1 Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V333MW1_8
+0x20B8;0x0109;0x010F;;;Vitotronic 333 MW1 Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional, neue Codierungen F8 bis FB) ; V333MW1_9
+0x20B9;0x0100;0x0106;;;Vitotronic 333 MW1S - Als Kopie von V333MW1 ; V333MW1S
+0x20B9;0x0107;0x0107;;;Vitotronic 333 MW1S Softwarestand 7 (0-10V Anschlußerweiterung optional) ; V333MW1S_7
+0x20B9;0x0108;0x0108;;;Vitotronic 333 MW1S Softwarestand 8 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional) ; V333MW1S_8
+0x20B9;0x0109;0x010F;;;Vitotronic 333 MW1S Softwarestand 9 (0-10V Anschlußerweiterung und Vitosolic 100/200 optional, neue Codierungen F8 bis FB) ; V333MW1S_9
+0x20BA;;;;;Vitotronic 333 MW2 (Kaskadenregelung für Wandgeräte) ; V333MW2
+0x20BA;0x0102;0x010F;;;Vitotronic 333 MW2 (Kaskadenregelung für Wandgeräte) Softwarestand 2 (neue Codierungen F8 bis FB) ; V333MW2_2
+0x20BB;;;;;Kaskade NR2 2011 ; V300KMW1A
+0x20BC;;;;;Kaskade NR2 2011 ; V300KMW2A
+0x20BD;;;;;Systemregler 2013 ; V300MW3B
+0x20BE;;;;;Vitotronic 300 GW6B ; V300GW6B
+0x20BF;;;;;Vitotronic 300 CM1E / CM1I ; V300CM1x
+0x20C0;0x0100;0x0103;;; ; VDensHC1
+0x20C0;0x0104;0x019F;;;ab Softwareindex 4 ; VDensHC1_4
+0x20C1;0x0100;0x0103;;; ; VDensHC2
+0x20C1;0x0104;0x019F;;;ab Softwareindex 4 ; VDensHC2_4
+0x20C2;0x0100;0x0103;;; ; VDensHO1
+0x20C2;0x0104;0x019F;;;ab Softwareindex 4 ; VDensHO1_4
+0x20C3;0x0100;0x0103;;; ; VPendHC1
+0x20C3;0x0104;0x0113;;;ab Softwareindex 4 ; VPendHC1_4
+0x20C3;0x0128;0x019F;;;ab Softwareindex 40 ; VPendHC1_40
+0x20C4;0x0100;0x0103;;; ; VPendHC2
+0x20C4;0x0104;0x0113;;;ab Softwareindex 4 ; VPendHC2_4
+0x20C4;0x0128;0x019F;;;ab Softwareindex 40 ; VPendHC2_40
+0x20C5;0x0100;0x0103;;; ; VPendHO1
+0x20C5;0x0104;0x0127;;;ab Softwareindex 4 ; VPendHO1_4
+0x20C5;0x0128;0x019F;;;ab Softwareindex 40 ; VPendHO1_40
+0x20C6;0x0100;0x0103;;; ; VPlusHC1
+0x20C6;0x0104;0x0113;;;ab Softwareindex 4 ; VPlusHC1_4
+0x20C6;0x0114;0x0127;;;ab Softwareindex20 ; VPlusHC1_20
+0x20C6;0x0128;0x0181;;;ab Softwareindex 40 ; VPlusHC1_40
+0x20C6;0x0182;0x0195;;;ab Softwareindex 130 (Projekt Vitolacaldens, Íl-Hybrid-WP) ; VPlusHC1_130
+0x20C7;0x0100;0x0103;;; ; VPlusHC2
+0x20C7;0x0104;0x0113;;;ab Softwareindex 4 ; VPlusHC2_4
+0x20C7;0x0128;0x019F;;;ab Softwareindex 40 ; VPlusHC2_40
+0x20C8;0x0100;0x0103;;; ; VPlusHO1
+0x20C8;0x0104;0x0113;;;ab Softwareindex 4 ; VPlusHO1_4
+0x20C8;0x0114;0x0127;;;ab Softwareindex 20 ; VPlusHO1_20
+0x20C8;0x0128;0x019F;;;ab Softwareindex 40 ; VPlusHO1_40
+0x20C9;0x0100;0x0103;;; ; VScotHC1
+0x20C9;0x0104;0x0113;;;ab Softwareindex 4 ; VScotHC1_4
+0x20C9;0x0114;0x0127;;;ab Softwareindex20 ; VScotHC1_20
+0x20C9;0x0128;0x0159;;;ab Softwareindex 40 ; VScotHC1_40
+0x20C9;0x015A;0x0181;;;ab Softwareindex 90 (Projekt Jupiter) ; VScotHC1_90
+0x20C9;0x0182;0x0195;;;ab Softwareindex 130 (Projekt Vitocaldens) ; VCaldens
+0x20C9;0x01C8;0x01FF;0x0;0x9;ab Softwareindex 200 , Vitdens 200 2016 ; VScotHC1_200
+0x20C9;0x01C8;0x01FF;0x10;0x19;ab Softwareindex 200 , Vitdens 200 2015 ; VScotHC1_200_10
+0x20C9;0x01C8;0x01FF;0x30;0x39;ab Softwareindex 200 , F0: 30 - 39, Vitocrossal 100  ; VScotHC1_200_30
+0x20CA;0x0100;0x0103;;; ; VScotHC2
+0x20CA;0x0104;0x0113;;;ab Softwareindex 4 ; VScotHC2_4
+0x20CA;0x0128;0x019F;;;ab Softwareindex 40 ; VScotHC2_40
+0x20CA;0x01C8;0x01FF;0x11;0x19;ab Softwareindex 200 ,F0 : 11,  Vitdens 200 HC2  2016 ; VScotHC2_200_11
+0x20CB;0x0100;0x0103;;; ; VScotHO1
+0x20CB;0x0104;0x0113;;;ab Softwareindex 4 ; VScotHO1_4
+0x20CB;0x0114;0x0127;;;ab Softwareindex 20 ; VScotHO1_20
+0x20CB;0x0128;0x0145;;;ab Softwareindex 40 ; VScotHO1_40
+0x20CB;0x0146;0x0147;;;ab Softwareindex 70 (Projekt Neptun) ; VScotHO1_70
+0x20CB;0x0148;0x0159;;;ab Softwareindex 72 (Projekt Neptun) ; VScotHO1_72
+0x20CB;0x015A;0x0181;;;ab Softwareindex 90 (Projekt Jupiter) ; VScotHO1_90
+0x20CB;0x0182;0x0195;;;ab Softwareindex 150 (Projekt Vitocaldens) ; VCaldens_HO1
+0x20CB;0x0196;0x01C7;;;ab Softwareindex 150 (Vitosorp) ; VSorp
+0x20CB;0x01C8;0x01FF;0x0;0x0;ab Softwareindex 200, Projekt Vitodens 300 mit HO2B ; VScotHO1_200
+0x20CB;0x01C8;0x01FF;0x1;0x9;ab Softwareindex 200, Projekt Vitodens 300 mit HO2B, ab 08/2016 mit Lüftungsbedienung ; VScotHO1_200_01
+0x20CB;0x01C8;0x01FF;0x10;0x10;ab Softwareindex 200, Projekt Vitodens 200 mit HO1B ; VScotHO1_200_10
+0x20CB;0x01C8;0x01FF;0x11;0x19;ab Softwareindex 200, Projekt Vitodens 200 mit HO1B ab 04/2016 ; VScotHO1_200_11
+0x20CB;0x01C8;0x01FF;0x20;0x29;ab Softwareindex 200, F0: 20 - 29 ; VScotHO1_200_20
+0x20CB;0x01C8;0x01FF;0x30;0x39;ab Softwareindex 200, Vitocrossal 100, F0: 30 - 39 ; VScotHO1_200_30
+0x20E3;;;;;Vitovalor 300-P ; Vitovalor
