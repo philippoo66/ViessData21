@@ -2,7 +2,7 @@
 Identifikation der zum Gerät gehörenden Datenpunktliste
 =======================================================
 
-Zuerst wird die Gerätekennung an der Adresse 0xF8 / 0x00F8 ausgelesen. Die 8 Bytes haben die folgende Struktur:
+Zuerst muss die Gerätekennung an der Adresse 0xF8 / 0x00F8 ausgelesen werden. Die 8 Bytes haben die folgende Struktur:
 
 GRUPPENIDENTIFIKATION   0xF8    sysDeviceGroupIdent
 REGLERIDENTIFIKATION    0xF9    sysDeviceIdent
