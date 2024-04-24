@@ -33,7 +33,7 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
   Seit Version 2.3.2.0 sollte auch das KW Protokoll 'arbeiten' (danke @traori für sein Mitwirken!).
   
 # :new: Viessdata 2.4
-Die Version 2.4 kann jetzt TCP/IP, d.h. ihr könnt einen kleinen Raspi im Keller an die Heizung oder WP hängen und das Ding macht still und stromsparend vor sich hin. Dann könnt ihr Viessdata bei Bedarf auf einem Rechner im W/LAN starten und die aktuellen Werte über's Netz lesen und schreiben. Die Log csv's für die Grafik bei Bedarf über FTP vom Raspi holen und in Viessdata öffnen.
+Die Version 2.4 kann jetzt auch TCP/IP, d.h. ihr könnt einen kleinen Raspi im Keller an die Heizung oder WP hängen und das Ding macht still und stromsparend vor sich hin. Dann könnt ihr Viessdata bei Bedarf auf einem Rechner im W/LAN starten und die aktuellen Werte über's Netz lesen und schreiben. Die Log csv's für die Grafik bei Bedarf über FTP vom Raspi holen und in Viessdata öffnen.
 
 Grundlage dafür ist der [Optolink-Switch](https://github.com/philippoo66/optolink-splitter), der noch viel mehr kann...
 
