@@ -32,6 +32,14 @@ Die neuen Versionen des schon älteren Tools für Viessmann Heizungen mit OptoLi
   
   Seit Version 2.3.2.0 sollte auch das KW Protokoll 'arbeiten' (danke @traori für sein Mitwirken!).
   
+# :new: Viessdata 2.4
+Die Version 2.4 kann jetzt TCP/IP, d.h. ihr könnt einen kleinen Raspi im Keller an die Heizung oder WP hängen und das Ding macht still und stromsparend vor sich hin. Dann könnt ihr Viessdata bei Bedarf auf einem Rechner im W/LAN starten und die aktuellen Werte über's Netz lesen und schreiben. Die Log csv's für die Grafik bei Bedarf über FTP vom Raspi holen und in Viessdata öffnen.
+
+Grundlage dafür ist der [Optolink-Switch](https://github.com/philippoo66/optolink-splitter), der noch viel mehr kann...
+
+![grafik](https://github.com/philippoo66/ViessData21/assets/122479122/94129601-6916-4446-9a24-a45cd7a4e7a5)
+
+
 ## DP_Listen_2.zip
 weiter DP Listen ergänzt. Die, bei denen das Python Skript offensichtlich nicht richtig funktioniert hat, habe ich als csv Kopie der SQL Abfrage beigefügt. Nicht ganz so schön wie die txt Files, aber zumindest sind die Address-Infos drin. 
 
