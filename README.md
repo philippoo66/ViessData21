@@ -81,3 +81,5 @@ sysHardware/SoftwareIndexIdent 1F C9 ist aber nirgends zu finden. Tatsächlich i
 
 Relevant für die Identifikation der zugehörigen Datenpunktliste im [DP_Listen_2.zip](https://github.com/philippoo66/ViessData21/blob/master/DP_Listen_2.zip) ist die Kennung hinter dem rechten Doppelpunkt, im Beispiel also das 'VScotHO1_200_01'. Die zugehörige Datenpunktliste ist DP_VScotHO1_200_01.txt
 
+ACHTUNG: Es macht den Anschein als wären die F0 Werte in der Devices.csv nicht hex sondern dez. Also bsw. F0:0b gehört wohl zu 11-19. 
+
