@@ -1,0 +1,29 @@
+/* Version History
+    V1.2.0.1
+    - send \n with TXP_TXT requests
+
+    V1.2.0.0
+    - implement TcpTxtMode
+
+    V1.1.1.0
+    - SendTcpRaw(str) implemented
+
+    V1.1.0.0
+    - Tcp/Ip Implementation
+    - isdll, frmDebug removed
+
+    V1.0.0.4
+    - Error Message (rx Byte 3 low nibble) evaluated
+    
+    V1.0.0.3
+   - ReadDataKW():
+     if not WaitFor0x05A() return.
+   
+   - DoSyncV1():
+     outer (blocking) queuehandling removed.
+
+   V1.0.0.2  21.01.2022
+   - lenght check of received data
+     success = false  if  recd len != len to read
+   
+*/

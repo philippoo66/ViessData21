@@ -1,6 +1,10 @@
+zip021 --------------------------------
+V2.4.3.0
+- f0 von/bis der devices.csv nicht mehr als hex sondern dez interpretiert
+
 zip020 --------------------------------
-V2.4.1.2 - zurÃ¼ck zu V2.4.1.1
-- in LoadWW() 65F5 nicht mehr zu 0 zurÃ¼ckgeschrieben
+V2.4.1.2 - zurück zu V2.4.1.1
+- in LoadWW() 65F5 nicht mehr zu 0 zurückgeschrieben
   s. https://github.com/philippoo66/optolink-splitter/discussions/134#discussioncomment-14521149
 
 zip019 --------------------------------
@@ -15,7 +19,7 @@ V2.4.1.1
 
 zip017 --------------------------------
 V2.4.1.0
-- beÃ¶tigt OLCA V1.1.1.0
+- beötigt OLCA V1.1.1.0
 - btnFlushCsv implementiert
 - tsbtnReadSel implementiert
 
@@ -25,7 +29,7 @@ V2.4.0.3
 
 zip015 --------------------------------
 V2.4.0.2
-- mit OLCA mit CleanExit auch fÃ¼r TCP/IP
+- mit OLCA mit CleanExit auch für TCP/IP
 - 
 
 zip014 --------------------------------
@@ -35,11 +39,11 @@ V2.4.0.0
 
 zip013 --------------------------------
 V2.3.3.0
-- Zeitenkram: Offsets fÃ¼r M2, M3 eingebaut
+- Zeitenkram: Offsets für M2, M3 eingebaut
 
 zip012 --------------------------------
 V2.3.2.2
-- Format in 0.### geÃ¤ndert
+- Format in 0.### geändert
 
 zip011 --------------------------------
 V2.3.2.1
@@ -48,7 +52,7 @@ V2.3.2.1
 zip010 --------------------------------
 V2.3.2.0
 braucht OptoLinkCommAsyncLib.dll V1.0.0.3 !!
-- KW Protokoll HÃ¤ngenbleiber beseitigt (DoSyncV1()) 
+- KW Protokoll Hängenbleiber beseitigt (DoSyncV1()) 
 - auch mehr als 1x/Min gespeichert
 
 
@@ -56,8 +60,8 @@ zip009 --------------------------------
 V2.3.1.0
 - COM Box fixiert
 - nach Anlegen eines neuen csv dieses auch 'verarbeiten' (Graph, Statistik etc)
-- Plotten der Graphs Ã¼berarbeitet / Einlesen beschleunigt
-- in Graphs 'LÃ¼cken gefÃ¼llt' bis 10 Minuten bei lÃ¤ngeren Abtastzyklen / Unterbrechungen
+- Plotten der Graphs überarbeitet / Einlesen beschleunigt
+- in Graphs 'Lücken gefüllt' bis 10 Minuten bei längeren Abtastzyklen / Unterbrechungen
 - Statistik Werte als 'hidden', brauchen nicht mehr als Graphs eingetragen werden
 - Gasverbrauch als Summe(BrennerLeistung * maxpower) in kWh
 - alles Viess_Data einheitlich in ViessData umbenannt
@@ -68,20 +72,20 @@ V2.3.0.0
 ACHTUNG ggf. angepasste vito_DP.xml notwendig
 (siehe Heiz/etc/zeiten)
 
-- bei Problemen mit xmls Error handling mit aussagefÃ¤higer Fehlermeldung 
+- bei Problemen mit xmls Error handling mit aussagefähiger Fehlermeldung 
 - COptoLinkCommAsync.fKwBulk gehandled in ReadListDPs
-- Knopf fÃ¼r WW Einmalladung
+- Knopf für WW Einmalladung
 - Liste full width, COM Port Selektion auf letzten Tab
-- beim DP Schreiben jetzt auch grÃ¼n..rot 
+- beim DP Schreiben jetzt auch grün..rot 
 - Meldungen jetzt als Liste
 - bei Erstellung neues csv FileMode.Create und FileShare.None 
 - jede Menge Kleinkram im Sinne 'soliderer' Programmierung
 
 - DP Liste:
-  - nicht mehr sortierbar, weil Zusammenhang mit nachtrÃ¤glich zugef. Spalten fehlt
-  - DP Liste ein wenig aufgerÃ¤umt
-  - Wert_String hinten dran fÃ¼r Unicode String DPs...
-    (utf-16, 2 Bytes lsb-msb, erstes Dupel msb-lsb enthÃ¤lt Lese-LÃ¤nge Dupels (inkl. Anz.))
+  - nicht mehr sortierbar, weil Zusammenhang mit nachträglich zugef. Spalten fehlt
+  - DP Liste ein wenig aufgeräumt
+  - Wert_String hinten dran für Unicode String DPs...
+    (utf-16, 2 Bytes lsb-msb, erstes Dupel msb-lsb enthält Lese-Länge Dupels (inkl. Anz.))
 
 - Read/Write List DP:
   - Schreiben bis zu 8 Bytes, auch unsigned
@@ -89,14 +93,14 @@ ACHTUNG ggf. angepasste vito_DP.xml notwendig
   - Offset eingebaut (wir auf Addr aufaddiert)
   - PollTimer gestoppt bei Stopknopf (kein Piep mehr ;-)
 
-- Heiz/etc/zeiten Ã¼berarbeitet:
+- Heiz/etc/zeiten überarbeitet:
   ACHTUNG: ein 56 Bytes Wert ODER 7 sub-sequent Tage je 8 Bytes in der Liste erwartet. 
-  - werden jetzt aus einem ByteArray (56 Bytes) an der Adresse 0x02y00 (wenn lÃ¤nger 8 Bytes, y â‚¬ 0,1,2)
+  - werden jetzt aus einem ByteArray (56 Bytes) an der Adresse 0x02y00 (wenn länger 8 Bytes, y € 0,1,2)
     oder aus 7 Wochentags-ByteArrays je 8 Byte gebildet (je nachdem wie in Liste vorgefunden) 
-  - Schreiben jetzt in 8 Byte Tages-BlÃ¶cken
+  - Schreiben jetzt in 8 Byte Tages-Blöcken
 - Tab Heiz/etc/Zeiten:
-  - Tag Einstellungen kopieren/Ã¼bertragen eingebaut
-  - alle EintrÃ¤ge lÃ¶schen eingebaut
+  - Tag Einstellungen kopieren/übertragen eingebaut
+  - alle Einträge löschen eingebaut
   - die ganze Geschichte jetzt mit Control Arrays und nicht mehr FindControl(Name) -> viel schneller
 
 
@@ -107,11 +111,11 @@ V2.2.0.1
 zip006 --------------------------------
 V2.2.0.0
 ACHTUNG vito_DP.xml nur noch bedingt kompatibel zu V2.06
-- Sonderbehandlung Wertekonvertierung nur noch fÃ¼r Datum (und Heiz/etc/zeiten)
+- Sonderbehandlung Wertekonvertierung nur noch für Datum (und Heiz/etc/zeiten)
 - signed Werte jetzt per negativer Angabe <precision> in vito_DP.xml
 - Brennerstunden precision 2.777778e-4 statt 3600
 - kein NotifyIcon mehr
-- vito_DP.xml einige DPs hinzugefÃ¼gt
+- vito_DP.xml einige DPs hinzugefügt
 
 
 zip005 --------------------------------
@@ -122,12 +126,12 @@ V2.1.0.7
 
 zip004 --------------------------------
 V2.1.0.6
-- einstellbare Grenzen fÃ¼r RaumTemp Sollwerte geÃ¤ndert zu 3..37 [Â°C]
+- einstellbare Grenzen für RaumTemp Sollwerte geändert zu 3..37 [°C]
 - in den tb_leave/_KeyUp procs .Parse durch if(!.TryParse ...) return; ersetzt
 - PollInterval (eigentlich Delay) auch manuell eingebbar per Enter
-- sysIdent lesen und GerÃ¤te-Info in Titelleiste, Btn Info added; erfordert Devices.csv
+- sysIdent lesen und Geräte-Info in Titelleiste, Btn Info added; erfordert Devices.csv
 - COptoLinkCommAsync zu IDisposable gemacht
-- ein wenig weiter aufgerÃ¤umt 
+- ein wenig weiter aufgeräumt 
 
 zip003 --------------------------------
 V2.1.0.5
@@ -152,5 +156,5 @@ V2.1.0.1
 
 V2.1.0.0   21.10.2022
 - erstmal nur Kosmetisches
-- Pfade etc. betriebssystemunabhÃ¤ngig
+- Pfade etc. betriebssystemunabhängig
 - DecimalSeparator Bug bei ZZahl und Brennwert beseitigt
