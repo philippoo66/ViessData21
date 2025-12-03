@@ -50,6 +50,8 @@ Die Listen, die aus der Vitosoft SQL DB / xml stammen, sind übrigens nicht unbe
 Aber es fehlen bsw. noch eine Menge Einstellungen an 0x77yz (Betriebsweise/Regelung der internen Umwälzpumpe, LON Parameter, Anlagentyp, Haustyp, allgem. Einstellungen, ...), wobei yz die Parameternummer aus der Serviceanleitung sind. Es scheint Sinn zu machen, anhand der Parameternummern im Serv.HB und der DP Adressen/Adressbereiche mal weiter zu schauen, wo man noch was findet. 
 
 Wer zusätzliche Infos braucht (z.B. Enums der Enum-Typ Parameter), und nicht das Vitosoft Monster installieren will, kann sich gerne melden.
+
+**Mehr zu Datenpunkte auch hier: https://github.com/philippoo66/optolink-splitter/wiki/310-Parameter-Addresses**
   
 ## DataPoints_ReadMe
 
